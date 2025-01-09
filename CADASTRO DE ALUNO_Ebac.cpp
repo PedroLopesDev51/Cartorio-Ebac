@@ -125,6 +125,7 @@ int main()
 	   printf("\t1 - Registrar nomes\n");              // O /t serve para dar o espaçamento da margemm
 	   printf("\t2 - Consultar nomes\n");              // O /n serve para pular uma linha
 	   printf("\t3 - Apagar nomes\n\n");
+	   printf("\t4 - Sair do sistema\n\n");
 	   printf("desenvolvido por @drope51\n\n");   
 	   printf("Opção: "); //Fim do menu
    
@@ -145,6 +146,11 @@ int main()
 		  	case 3:
 			deletar();
 			break;		
+			
+			case 4:
+			printf("Obrigado por utilizar o sistema! \n");
+			return 0;
+			break;
 			
 			default:
 			printf("Essa opção não esta disponivel!\n");
